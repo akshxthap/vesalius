@@ -140,3 +140,9 @@ calculate_scale <- function(coordinates, q = 0.999) {
     scale <- unname(quantile(scale$nn.dist[, 2], q))
     return(scale)
 }
+
+
+hello_world <- function() {
+  print("Hello, world!")
+}
+
